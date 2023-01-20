@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Header() {
 
-    const links = ["Services", "Locations", "About"]
+    const links = ["Services", "Locations", "Contact"]
     return (
         <header class="text-gray-600">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -21,7 +21,7 @@ export default function Header() {
                     ))}
                 </ul>
 
-                <Link href={"/locations"} class="rounded mr-3 inline-flex items-center bg-cyan-900 border-0 py-3 px-5 focus:outline-none hover:bg-cyan-700 text-white font-bold mt-4 md:mt-0">Book an Appointment
+                <Link href={"/appointment"} class="rounded mr-3 inline-flex items-center bg-cyan-900 border-0 py-3 px-5 focus:outline-none hover:bg-cyan-700 text-white font-bold mt-4 md:mt-0">Book an Appointment
 
                 </Link>
                 {/* <FaSearch fontSize={40} color="blue" cursor={"pointer"}/> */}
