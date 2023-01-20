@@ -27,9 +27,7 @@ export default function Contact(){
     </div>
     <div
         class="border w-[70%] md:w-[40%] bg-gray-100 items-center flex flex-col justify-center leading-7 space-y-8 p-8 h-full">
-        <img src="https://dummyimage.com/200x100/d4d4d4/000000" alt="" class=""/>
-        <p class="text-black">Tailblocks is a Next js app to provide best web design components for free. It uses
-            React, NextJs, Tailwind CSS and deployed on Digital Ocean.</p>
+        
     </div>
 </div>
 </div>
