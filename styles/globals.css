@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.refer-patient-div:hover {
+  background-image: none;
+}
+
+.refer-patient-div:hover .refer-patient-video {
+  display: block;
+}
