@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const SectionFeature = () => {
@@ -14,29 +15,29 @@ const SectionFeature = () => {
   // }
 
   return (
-    <div className="container flex flex-wrap">
+    <div className="flex flex-wrap mb-3">
       <div
-        className="bg-no-repeat bg-cover bg-center w-full bg-opacity-70"
+        className="bg-no-repeat bg-cover bg-center h-auto w-full bg-opacity-70"
         style={{
           backgroundImage: `url("https://production-prod-trueprofile-blogassets-origin.s3.ap-southeast-1.amazonaws.com/uploads/2022/03/shutterstock_1367016380-1024x535.jpg")`,
         }}
       >
-        <h2 className="text-4xl  px-28  py-32 text-white font-medium title-font mb-2 w-2/4 leading-9">
+        <p className="lg:text-4xl lg:px-28 lg:py-32  text-white lg:font-medium mb-2 w-2/4 leading-9">
           USA Health is Transforming Medicine along the Gulf Coast to care for
           the unique needs of our community.
-        </h2>
+        </p>
       </div>
-      <div className="text-2xl px-5 py-8 font-medium border-r-2 w-2/4 text-center hover:bg-blue-900 hover:text-white cursor-pointer">
+      <Link href={"/appointment"} className="text-2xl px-5 py-8 font-medium border-r-2 w-2/4 text-center hover:bg-blue-900 hover:text-white cursor-pointer">
         Request An Appointment
-      </div>
+      </Link>
 
-      <div
+      <Link href={"/appointment"}
         className="w-2/4 text-2xl px-5 py-8 font-medium border-r-2  text-center hover:bg-blue-900 hover:text-white 
        cursor-pointer"
-        // onclick={toggleBackground()}
+      // onclick={toggleBackground()}
       >
         Refer A Patient
-      </div>
+      </Link>
       {/* <video
         className="patient-video"
         src="/clinic.mp4"

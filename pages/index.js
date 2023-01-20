@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Mypage from "./services";
+import Feature from "./section";
+import SectionFeature from "./section2";
 
 export default function Home() {
   return (
@@ -8,9 +9,8 @@ export default function Home() {
         <title>Clinic</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-          <Mypage/>     
-      </div>
+      <SectionFeature />
+      <Feature />
     </>
   );
 }
