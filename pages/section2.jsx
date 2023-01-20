@@ -1,17 +1,17 @@
 import React from "react";
 
 const SectionFeature = () => {
-  function toggleBackground() {
-    const image = document.querySelector(".bg-no-repeat");
-    const video = document.querySelector(".patient-video");
-    if (image.style.display === "none") {
-      image.style.display = "block";
-      video.style.display = "none";
-    } else {
-      image.style.display = "none";
-      video.style.display = "block";
-    }
-  }
+  // function toggleBackground() {
+  //   const image = document.querySelector(".bg-no-repeat");
+  //   const video = document.querySelector(".patient-video");
+  //   if (image.style.display === "none") {
+  //     image.style.display = "block";
+  //     video.style.display = "none";
+  //   } else {
+  //     image.style.display = "none";
+  //     video.style.display = "block";
+  //   }
+  // }
 
   return (
     <div className="container flex flex-wrap">
@@ -33,17 +33,17 @@ const SectionFeature = () => {
       <div
         className="w-2/4 text-2xl px-5 py-8 font-medium border-r-2  text-center hover:bg-blue-900 hover:text-white 
        cursor-pointer"
-        onclick={toggleBackground()}
+        // onclick={toggleBackground()}
       >
         Refer A Patient
       </div>
-      <video
+      {/* <video
         className="patient-video"
         src="/clinic.mp4"
         autoplay
         loop
         style={{ display: "none" }}
-      ></video>
+      ></video> */}
     </div>
   );
 };
