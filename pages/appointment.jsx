@@ -26,7 +26,7 @@ function Form() {
   return (
     <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg mx-[7rem]">
       <h2 className="text-lg font-medium mb-4">Patient Information</h2>
-      <div className="mb-4 w-2/4">
+      <div className="mb-4 md:w-2/4 sm:w-full">
         <label className="block text-gray-700 font-medium mb-2" htmlFor="name">
           Full Name
         </label>
@@ -41,7 +41,7 @@ function Form() {
           required
         />
       </div>
-      <div className="mb-4 w-2/4">
+      <div className="mb-4 md:w-2/4 sm:w-full">
         <label className="block text-gray-700 font-medium mb-2" htmlFor="email">
           Email
         </label>
@@ -56,7 +56,7 @@ function Form() {
           required
         />
       </div>
-      <div className="mb-4 w-2/4">
+      <div className="mb-4 md:w-2/4 sm:w-full">
         <label
           className="block text-gray-500 font-medium mb-2"
           htmlFor="contact-number"
@@ -73,7 +73,7 @@ function Form() {
           required
         />
       </div>
-      <div className="mb-4 w-2/4">
+      <div className="mb-4 md:w-2/4 sm:w-full">
         <label className="block text-gray-700 font-medium mb-2">
           Date of Birth
         </label>
@@ -86,7 +86,7 @@ function Form() {
           />
         </div>
       </div>
-      <div className="mb-4 w-2/4">
+      <div className="mb-4 md:w-2/4 sm:w-full">
         <label
           className="block text-gray-500 font-medium mb-2"
           htmlFor="gender"
@@ -118,7 +118,7 @@ function Form() {
         </div>
       </div>
       <h2 className="text-lg font-medium mt-9 mb-9">Appointment Information</h2>
-      <div className="mb-4 w-2/4">
+      <div className="mb-4 md:w-2/4 sm:w-full">
         <label className="block text-gray-700 font-medium mb-2">
           Speciality
         </label>
@@ -156,7 +156,7 @@ function Form() {
           </div>
         </div>
       </div>
-      <div className="mb-4 w-2/4">
+      <div className="mb-4 md:w-2/4 sm:w-full">
         <label className="block text-gray-700 font-medium mt-4 mb-2">
           Preferred Day of the Week
         </label>
@@ -186,8 +186,8 @@ function Form() {
           </div>
         </div>
       </div>
-      <div className="mb-4 w-2/4"></div>
-      <div className="mb-4 w-2/4">
+
+      <div className="mb-4 md:w-2/4 sm:w-full">
         <label className="block text-gray-700 font-medium mt-4 mb-2">
           Preferred Time of Day
         </label>
@@ -215,7 +215,7 @@ function Form() {
           </div>
         </div>
       </div>
-      <div className="mb-4 w-2/4">
+      <div className="mb-4 md:w-2/4 sm:w-full">
         <label className="block text-gray-700 font-medium mt-4 mb-2">
           Message
         </label>

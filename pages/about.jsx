@@ -19,7 +19,7 @@ const About = () => {
         </p>
       </div>
       <div class="container px-5 py-24 mx-auto">
-        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-start">
+        <div class="xl:w-1/2 lg:w-3/4 sm:w-full mx-auto text-start">
           <h1 class="text-gray-900 font-medium title-font tracking-wider text-3xl mb-4">
             The Mission and Vision of USA Health
           </h1>
