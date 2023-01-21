@@ -7,9 +7,9 @@ export default function Contact(){
 
     return(
         <>
-       <div class="flex justify-center ">
-<div class="w-4/5 my-5 mx-auto flex flex-col items-center md:flex-row ">
-    <div class="border w-[70%] h-full bg-cyan-400 text-white p-10"> <span>
+       <div class="justify-center ">
+<div class="w-11/12 my-5 mx-auto flex flex-col items-center md:flex-row ">
+    <div class="border w-[80%] h-full bg-cyan-400 text-white p-10"> <span>
             <h1 class="text-3xl font-semibold text-center mb-4 text-yellow-300">Contact Us</h1>
             <p class="text-xs font-normal mt-2 text-center">Contact us by filling this contact form So we shell be in touch with you.</p>
         </span>
@@ -25,10 +25,7 @@ export default function Contact(){
                 class="block m-auto w-[60%] md:w-[50%] text-center border bg-yellow-300 rounded-full py-1 mt-6 text-lg font-bold tracking-wide uppercase text-white brightness-105 hover:bg-yellow-400">Send</button>
         </div>
     </div>
-    <div
-        class="border w-[70%] md:w-[40%] bg-gray-100 items-center flex flex-col justify-center leading-7 space-y-8 p-8 h-full">
-        
-    </div>
+   
 </div>
 </div>
         </>
