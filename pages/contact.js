@@ -7,7 +7,7 @@ export default function Contact(){
 
     return(
         <>
-       <div class="justify-center ">
+       <div class="justify-center flex">
 <div class="w-11/12 my-5 mx-auto flex flex-col items-center md:flex-row ">
     <div class="border w-[80%] h-full bg-cyan-400 text-white p-10"> <span>
             <h1 class="text-3xl font-semibold text-center mb-4 text-yellow-300">Contact Us</h1>
@@ -26,6 +26,9 @@ export default function Contact(){
         </div>
     </div>
    
+</div>
+<div>
+    <h5 className="text-4xl py-40">For advetisement</h5>
 </div>
 </div>
         </>
