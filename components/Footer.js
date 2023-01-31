@@ -14,7 +14,7 @@ function Footer() {
               </Link>
             </div>
           </div>
-          <div class="lg:w-1/6 md:w-1/2 w-full lg:text-lg">
+          <div class="lg:w-1/6 md:w-1/2 w-full lg:text-lg font-medium">
             <nav class="list-none mb-5">
               <li>
                 <Link href={"about"} class="text-gray-600 hover:text-gray-800">About Us</Link>
@@ -27,7 +27,7 @@ function Footer() {
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/6 md:w-1/2 w-full lg:text-lg">
+          <div class="lg:w-1/6 md:w-1/2 w-full lg:text-lg font-medium">
             <nav class="list-none mb-10">
               <li>
                 <Link href={"contact"} class="text-gray-600 hover:text-gray-800">Contact Us</Link>
