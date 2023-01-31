@@ -1,5 +1,5 @@
 import React from "react";
-import { RiHandHeartLine } from "react-icons/ri";
+import { RiCheckboxMultipleBlankFill, RiFlashlightFill, RiHandHeartLine, RiHeavyShowersFill, RiHospitalFill, RiToolsFill } from "react-icons/ri";
 
 const Feature = () => {
   return (
@@ -37,11 +37,11 @@ const Feature = () => {
               <div className="  items-center justify-center flex py-2">
                 <div className="flex flex-col  items-center justify-center ">
                   <div>
-                    <RiHandHeartLine className="text-white w-12 h-12 hover:cursor-pointer md:-translate-x-20 hover:-translate-y-4 mt-3 transition duration-300 delay-150 hover:delay-300" />
+                    <RiFlashlightFill className="text-white w-12 h-12 hover:cursor-pointer md:-translate-x-20 hover:-translate-y-4 mt-3 transition duration-300 delay-150 hover:delay-300" />
                   </div>
                   <div className="text-white  m-2">
                     <h1 className="sm:text-3xl text-2xl font-small title-font text-white mb-4">
-                      More Experience
+                      Fastest Ambulance
                     </h1>
                     <p className="leading-relaxed text-base mb-4">
                       The million patients we treat each year prepares us to
@@ -57,11 +57,11 @@ const Feature = () => {
               <div className="  items-center justify-center flex py-2">
                 <div className="flex flex-col  items-center justify-center ">
                   <div>
-                    <RiHandHeartLine className="text-white w-12 h-12 hover:cursor-pointer md:-translate-x-20 hover:-translate-y-4 mt-3 transition duration-300 delay-150 hover:delay-300" />
+                    <RiToolsFill className="text-white w-12 h-12 hover:cursor-pointer md:-translate-x-20 hover:-translate-y-4 mt-3 transition duration-300 delay-150 hover:delay-300" />
                   </div>
                   <div className="text-white  m-2">
                     <h1 className="sm:text-3xl text-2xl font-small title-font text-white mb-4">
-                      More Experience
+                      Newest Equipment
                     </h1>
                     <p className="leading-relaxed text-base mb-4">
                       The million patients we treat each year prepares us to
@@ -77,11 +77,11 @@ const Feature = () => {
               <div className="  items-center justify-center flex py-2">
                 <div className="flex flex-col  items-center justify-center ">
                   <div>
-                    <RiHandHeartLine className="text-white w-12 h-12 hover:cursor-pointer md:-translate-x-20 hover:-translate-y-4 mt-3 transition duration-300 delay-150 hover:delay-300" />
+                    <RiHospitalFill className="text-white w-12 h-12 hover:cursor-pointer md:-translate-x-20 hover:-translate-y-4 mt-3 transition duration-300 delay-150 hover:delay-300" />
                   </div>
                   <div className="text-white  m-2">
                     <h1 className="sm:text-3xl text-2xl font-small title-font text-white mb-4">
-                      More Experience
+                      Professional Doctors
                     </h1>
                     <p className="leading-relaxed text-base mb-4">
                       The million patients we treat each year prepares us to
