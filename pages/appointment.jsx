@@ -24,7 +24,7 @@ function Form() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg mx-[7rem]">
+    <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg mx-[7rem] flex ">
       <h2 className="text-lg font-medium mb-4">Patient Information</h2>
       <div className="mb-4 md:w-2/4 sm:w-full">
         <label className="block text-gray-700 font-medium mb-2" htmlFor="name">

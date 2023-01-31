@@ -9,8 +9,8 @@ function Footer() {
         <div class="flex flex-wrap md:text-left text-center order-first">
           <div class="lg:w-2/6 md:w-1/2 w-full object-center">
             <div className="flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-              <Link href={"/"} className="flex md:justify-start justify-center mt-2">
-                <img src="/logo.png" alt="" width="210px" height="100px" />
+              <Link href={"/"} className="flex md:justify-start justify-center mt-4">
+                <img src="/logo svg.svg" alt="" width="240px" height="120px" />
               </Link>
             </div>
           </div>

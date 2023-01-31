@@ -5,12 +5,12 @@ import Link from 'next/link';
 
 export default function Header() {
 
-    const links = [{ href: '/services', title: 'Services' },{ href: '/locations', title: 'Locations' }, { href: '/contact', title: 'Contact Us' }]
+    const links = [{ href: '', title: 'Services' }, { href: '/locations', title: 'Locations' }, { href: '/contact', title: 'Contact Us' }]
     return (
         <header class="text-gray-600">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                <Link href={"/section"} class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                    <img className='h-7' src="https://www.usahealthsystem.com/assets/images/global/logo.png" alt="img"></img>
+                <Link href={"/"} class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                    <img className='h-7' src="logo svg.svg" alt="img"></img>
 
                 </Link>
 
