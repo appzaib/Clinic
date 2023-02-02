@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Header() {
 
-    const links = [{ href: '', title: 'Services' }, { href: '/locations', title: 'Locations' }, { href: '/contact', title: 'Contact Us' }]
+    const links = [{ href: '/services', title: 'Services' }, { href: '/locations', title: 'Locations' }, { href: '/contact', title: 'Contact Us' }]
     return (
         <header class="text-gray-600">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
