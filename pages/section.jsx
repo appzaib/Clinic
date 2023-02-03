@@ -1,8 +1,10 @@
 import React from "react";
-import { RiCheckboxMultipleBlankFill, RiFlashlightFill, RiHandHeartLine, RiHeavyShowersFill, RiHospitalFill, RiToolsFill } from "react-icons/ri";
+import { FaRegHeart, FaMicroscope, FaViruses, FaStethoscope, FaGitlab} from "react-icons/fa"
+import { RiFlashlightFill, RiHandHeartLine, RiHospitalFill, RiToolsFill } from "react-icons/ri";
 
 const Feature = () => {
   return (
+    <>
     <div className="flex justify-center  p-4 bg-blue-900 ">
       <div className="flex flex-col justify-center items-center ">
         <div className="text-white text-3xl md:text-5xl font-small">
@@ -93,8 +95,63 @@ const Feature = () => {
             </div>
           </div>
         </div>
+
+
+
+
       </div>
     </div>
+    <div>
+      <div className="lg:flex lg:flex-wrap lg:px-10 py-10 h-auto">
+            <div className="lg:w-1/2">
+              <span className="text-xl my-10">Premium Care</span>
+                <h1 className="lg:text-4xl md:text-2xl text-sky-900 font-bold">Medical Services and all Types of Diagnostics.</h1>
+            </div>
+            <div className="lg:w-1/2">
+                <div className="lg:px-10">
+                <p className="text-lg py-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis velit recusandae a odit consequatur ad, ratione minima. Harum earum odit magnam asperiores qui dolores culpa accusamus doloribus sint maxime. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel consequatur provident aspernatur illum dignissimos eaque libero amet, dolore inventore quisquam accusamus obcaecati laborum nam explicabo a maiores cum placeat in!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div className="container lg:pl-10 lg:w-full flex flex-wrap justify-center">
+      <div className="w-full md:w-1/4 lg:w-1/4 ">
+        <div className="flex flex-col items-center ">
+          <FaGitlab className="text-6xl text-green-700"/>
+          <h1 className="py-4 text-lg font-semibold text-sky-800 uppercase">Modern Laboratery</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio maxime laudantium sequi eaque illo et laborum, qui error commodi earum hic culpa cumque maiores consequuntur tempore harum. Vitae, iste optio.</p>
+        </div>
+      </div>
+
+      <div className="w-full md:w-1/4 lg:w-1/4 ">
+        <div className="flex flex-col items-center ">
+          <FaMicroscope className="text-6xl text-green-700"/>
+          <h1 className="py-4 text-lg font-semibold text-sky-800 uppercase">diagnostic center</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio maxime laudantium sequi eaque illo et laborum, qui error commodi earum hic culpa cumque maiores consequuntur tempore harum. Vitae, iste optio.</p>
+        </div>
+      </div>
+
+      <div className="w-full md:w-1/4 lg:w-1/4 ">
+        <div className="flex flex-col items-center ">
+          <FaViruses className="text-6xl text-green-700"/>
+          <h1 className="py-4 text-lg font-semibold text-sky-800 uppercase">Experiance Doctors</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio maxime laudantium sequi eaque illo et laborum, qui error commodi earum hic culpa cumque maiores consequuntur tempore harum. Vitae, iste optio.</p>
+
+        </div>
+      </div>
+
+      <div className="w-full md:w-1/4 lg:w-1/4 ">
+        <div className="flex flex-col items-center ">
+          <FaStethoscope className="text-6xl text-green-700"/>
+          <h1 className="py-4 text-lg font-semibold text-sky-800 uppercase">therapy</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio maxime laudantium sequi eaque illo et laborum, qui error commodi earum hic culpa cumque maiores consequuntur tempore harum. Vitae, iste optio.</p>
+
+        </div>
+      </div>
+    </div>
+
+    </>
   );
 };
 
