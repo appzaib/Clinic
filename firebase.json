@@ -1,7 +1,7 @@
 {
   "hosting": {
     "public": "out",
-    "site": "clinicware",
+    "site": "clinic-ware",
     "ignore": [
       "firebase.json",
       "**/.*",
