@@ -27,7 +27,7 @@ const Feature = () => {
 
                     <p className="leading-relaxed text-base mb-4">
                       The million patients we treat each year prepares us to
-                      treat the one who matters most — you.
+                      treat the one who matters most — you. you are the ultimate goal of our services we provide.
                     </p>
                   </div>
                 </div>
@@ -46,8 +46,7 @@ const Feature = () => {
                       Fastest Ambulance
                     </h1>
                     <p className="leading-relaxed text-base mb-4">
-                      The million patients we treat each year prepares us to
-                      treat the one who matters most — you.
+                    we are proud to provide the fastest ambulance service in the area. Our team of skilled medical professionals is equipped with state-of-the-art equipment and vehicles to ensure that we can respond to emergencies quickly and efficiently.
                     </p>
                   </div>
                 </div>
@@ -66,8 +65,7 @@ const Feature = () => {
                       Newest Equipment
                     </h1>
                     <p className="leading-relaxed text-base mb-4">
-                      The million patients we treat each year prepares us to
-                      treat the one who matters most — you.
+                    To achieve this goal, we invest in the newest and most advanced medical equipment available on the market. We believe that having access to cutting-edge technology is crucial to delivering accurate diagnoses.
                     </p>
                   </div>
                 </div>
@@ -86,8 +84,7 @@ const Feature = () => {
                       Professional Doctors
                     </h1>
                     <p className="leading-relaxed text-base mb-4">
-                      The million patients we treat each year prepares us to
-                      treat the one who matters most — you.
+                    Our doctors are dedicated to providing top-quality healthcare to all of our patients, and they possess the expertise and experience necessary to address a wide range of medical concerns.
                     </p>
                   </div>
                 </div>
@@ -109,7 +106,7 @@ const Feature = () => {
             </div>
             <div className="lg:w-1/2">
                 <div className="lg:px-10">
-                <p className="text-lg py-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis velit recusandae a odit consequatur ad, ratione minima. Harum earum odit magnam asperiores qui dolores culpa accusamus doloribus sint maxime. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel consequatur provident aspernatur illum dignissimos eaque libero amet, dolore inventore quisquam accusamus obcaecati laborum nam explicabo a maiores cum placeat in!</p>
+                <p className="text-lg py-5 ">wW are dedicated to providing top-quality medical services and diagnostics to our clients. We understand that seeking medical care can be a daunting experience, which is why we strive to make the process as comfortable and reassuring as possible. Our team of experienced medical professionals offers a wide range of services, including preventative care, diagnosis and treatment of illnesses, and specialized medical treatments. We utilize the latest technology and medical practices to ensure accurate and efficient diagnosis and treatment of a variety of medical conditions.</p>
                 </div>
             </div>
         </div>
